@@ -1,16 +1,42 @@
-# React + Vite
+# 💰 CashFlowly – Expense Tracker (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** 🔗 [https://cashflowly.netlify.app/](https://cashflowly.netlify.app/)
 
-Currently, two official plugins are available:
+CashFlowly is a modern, responsive expense tracking web app that helps users manage income, expenses, and overall balance effortlessly.  
+Built with **React (Vite)** and **Axios**, it connects to a secure Node.js + MongoDB backend API to provide real-time financial management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ **User Authentication**
+- Login & Signup using JWT tokens  
+- Secure routes and protected dashboard access  
 
-## Expanding the ESLint configuration
+✅ **Transaction Management**
+- Add, Edit, Delete transactions  
+- View all your incomes and expenses  
+- Summary view of total income, expense, and balance  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **Dynamic Dashboard**
+- Personalized transactions fetched from your account  
+- Clean UI with visual separation of income vs expenses  
+
+✅ **User Management**
+- Update user profile (name, email)  
+- Logout functionality  
+
+✅ **Responsive Design**
+- Works seamlessly across desktop and mobile devices  
+
+---
+
+## 🧰 Tech Stack
+
+**Frontend:**
+- React (Vite)
+- React Router DOM
+- Axios
+- React Icons
+- CSS (Custom responsive styling)
+ 
